@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ib-row">
+        <div class="ib-100 ibs-100">
+        <div class="slideshow-container">
+                <div class="mySlides fadeBanner">
+                        <div class="mainBannerImage" style="background-image:url('1.jpg'); width: 100%; height: 400px;">
+                            <div class="ib-row contentWidth">{{ image.description|raw }}</div>
+                        </div>
+                        <div class="mainBannerImage" style="background-image:url('2.jpg'); width: 100%; height: 400px;">
+                            <div class="ib-row contentWidth">{{ image.description|raw }}</div>
+                        </div>
+                        <!--<a href="#" >
+                            <div class="mainBannerImage" style="background-image:url(); width: 100%; height: 400px;">
+                                <div class="ib-row contentWidth">{{ image.description|raw }}</div>
+                            </div>
+                        </a>-->
+                </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
